@@ -1,0 +1,25 @@
+.progressBar {
+  background: #373737;
+  width: 1000px;
+  height: 20px;
+}
+
+.low {
+  background: #7160E8;
+  height: 100%;
+}
+
+.middle-low {
+  background: #60ADE8;
+  height: 100%;
+}
+
+.middle-high {
+  background: #60E8B6;
+  height: 100%;
+}
+
+.high {
+  background: #30DB63;
+  height: 100%;
+}

@@ -1,0 +1,40 @@
+.title {
+  padding-top: 5%;
+  width: 30%;
+  height: 30%;
+  font-weight: bold;
+}
+
+.homePage {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+.text {
+  color: #FFFFFF;
+}
+
+.firstBarText {
+  margin-top: 10%;
+}
+
+.secondBarText {
+  margin-top: 2%;
+}
+
+.button-container {
+  margin-top: 4%;
+  width: 100%;
+}
+
+.barButton {
+  background-color: #373737;
+  margin-right: 2%;
+  padding: 1%;
+  border-color: #373737;
+  cursor: pointer;
+  box-shadow: 0 3px 6px #00000029;
+}

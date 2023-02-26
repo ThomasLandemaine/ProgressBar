@@ -1,0 +1,12 @@
+<div class="homePage">
+  <div class="title text">Test Technique WEB-ATRIO réalisé par Landemaine Thomas réalisé le 26/02/2023</div>
+  <p class="firstBarText text">Initialisation du test technique</p>
+  <app-progress-bar [percentage]="firstBarValue"></app-progress-bar>
+  <p class="secondBarText text">Avancement de la phase de développement</p>
+  <app-progress-bar [percentage]="secondBarValue"></app-progress-bar>
+  <div class="button-container">
+    <button class="barButton text" (click)="resetToZero()">Remettre à zéro les compteurs</button>
+    <button class="barButton text" (click)="addFivePercent()">Ajouter 5%</button>
+    <button class="barButton text" (click)="addTenPercent()">Ajouter 10%</button>
+  </div>
+</div>
